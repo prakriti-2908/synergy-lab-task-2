@@ -1,0 +1,236 @@
+@media only screen and (max-width: 1024px){
+    .navbar .right ul{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .navbar{
+        width: 116vw;
+    }
+    .hero{
+        .right{
+            display: none;
+        }
+        .left{
+            width: 73%;
+        }
+    }
+    .og-creators{
+        width: 108vw;
+        .bottom{
+            overflow-x: scroll;
+            gap: 2rem;
+            .creators-card{
+                width: 28%;
+                .icons{
+                    gap: 1rem;
+                    .left{
+                        gap: 0.3rem;
+                    }
+                }
+            }
+        }
+    }
+    .categories{
+        width: 115vw;
+        .category{
+            overflow-x: scroll !important;
+            gap: 2rem !important;
+            .bg{
+                width: 10rem !important;
+            }
+            img{
+                height: 7rem;
+            }
+        }
+        .category-card{
+            width: 36%;
+        }
+    }
+    .design-creator{
+        width: 110vw;
+        .left .top h1{
+            font-size: 2rem;
+        }
+        .right h1{
+            font-size: 2rem;
+        }
+    }
+
+    .grid .top{
+        justify-content: center;
+        margin-left: 5rem;
+        .grid-card{
+            padding: 1rem 2rem 0rem 2rem;
+            img{
+                height: 10rem;
+            }
+        }
+    }
+    .grid{
+        width: 115vw;
+    }
+    .grid .bottom{
+        padding: 2rem 1rem 2rem 2rem;
+        align-items: center;
+        align-self: center;
+        margin-left: 6rem;
+        .left{
+            font-size: small;
+        }
+        .right{
+            width: 38%;
+        }
+    }
+    .brands{
+        svg{
+            max-width: 5rem !important;
+        }
+        img{
+            max-width: 8rem;
+        }
+    }
+    .associated-brands{
+        width: 110vw;
+    }
+
+}
+
+@media only screen and (max-width: 425px){
+    .hero{
+        width: 100vw;
+        .left{
+            width: 100%;
+            .left-bottom{
+                p{
+                    font-size: 10px;
+                }
+                ul li{
+                    font-size: 11px;
+                }
+            }
+        }
+    }
+
+    .og-creators{
+        width: 122vw;
+        .bottom .creators-card{
+            width: 41%;
+        }
+    }
+    .categories{
+        width: 134vw;
+        .category{
+            gap: 2rem !important;
+            .bg{
+                width: 10rem !important;
+            }
+            img{
+                height: 7rem;
+            }
+        }
+    }
+    .design-creator{
+        width: 127vw;
+        .left {
+            .top{
+                h1{
+                    font-size: 24px;
+                }
+            }
+        }
+        .right{
+            h1{
+                font-size: 24px;
+            }
+        }
+    }
+
+    .grid{
+        width: 134vw;
+        .top{
+            margin-left: 2rem;
+            .grid-card{
+                padding: 1rem 1rem 0rem 1rem;
+                p{
+                    font-size: 19px;
+                }
+            }
+        }
+    }
+    .associated-brands{
+        width: 127vw;
+        .brands{
+            flex-direction: column;
+        }
+    }
+    .navbar{
+        width: 135vw;
+    }
+}
+
+@media only screen and (max-width:320px){
+    .hero{
+        width: 130vw;
+    }
+    .navbar{
+        width: 152vw;
+    }
+    .og-creators{
+        width: 135vw;
+        .bottom .creators-card{
+            width: 45%;
+        }
+    }
+    .categories{
+        width: 152vw;
+    }
+    .design-creator{
+        width: 142vw;
+        .left{
+            .top{
+                h1{
+                    font-size: 20px;
+                }
+            }
+        }
+        .right {
+            h1{
+                font-size: 20px;
+            }
+            p{
+                font-size: small;
+            }
+        }
+    }
+    .grid{
+        width: 151vw;
+        .top{
+            .grid-card{
+                padding: 1rem 0rem 0rem 0rem;
+                p{
+                    font-size: 17px;
+                }
+            }
+        }
+        .bottom{
+            .left{
+                    h2{
+                        font-size: 15px;
+                    }
+                    p{
+                        font-size: 10px;
+                    }
+                    .icons{
+                        span{
+                            font-size: small;
+                        }
+                    }
+            }
+        }
+    }
+    .associated-brands{
+        width: 141vw;
+    }
+}
